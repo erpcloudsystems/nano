@@ -1,0 +1,154 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2021-06-18 13:36:04.217127",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_8",
+  "naming_series",
+  "posting_date",
+  "payment_account",
+  "column_break_7",
+  "pay_to",
+  "sales_partner",
+  "sales_partner_account",
+  "sales_manager",
+  "sales_manager_account",
+  "commission_table_section",
+  "commission_details",
+  "total_payable",
+  "amended_from",
+  "journal_entry"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "COM-"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Commission Payment",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "pay_to",
+   "fieldtype": "Select",
+   "label": "Pay To",
+   "options": "Sales Partner\nSales Manager"
+  },
+  {
+   "depends_on": "eval:doc.pay_to==\"Sales Partner\"",
+   "fieldname": "sales_partner",
+   "fieldtype": "Link",
+   "label": "Sales Partner",
+   "options": "Sales Partner"
+  },
+  {
+   "depends_on": "eval:doc.pay_to==\"Sales Manager\"",
+   "fieldname": "sales_manager",
+   "fieldtype": "Link",
+   "label": "Sales Manager",
+   "options": "Sales Partner"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commission_table_section",
+   "fieldtype": "Section Break",
+   "label": "Commission Table"
+  },
+  {
+   "fieldname": "commission_details",
+   "fieldtype": "Table",
+   "label": "Commission Details",
+   "options": "Commission Table"
+  },
+  {
+   "default": "\u062e\u0632\u0646\u0629 \u062c\u0645 - PWS",
+   "fieldname": "payment_account",
+   "fieldtype": "Link",
+   "label": "Payment Account",
+   "options": "Account"
+  },
+  {
+   "depends_on": "eval:doc.pay_to==\"Sales Partner\"",
+   "fetch_from": "sales_partner.account",
+   "fieldname": "sales_partner_account",
+   "fieldtype": "Link",
+   "label": "Sales Partner Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "total_payable",
+   "fieldtype": "Currency",
+   "label": "Total Payable",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.pay_to==\"Sales Manager\"",
+   "fetch_from": "sales_manager.account",
+   "fieldname": "sales_manager_account",
+   "fieldtype": "Link",
+   "label": "Sales Manager Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "journal_entry",
+   "fieldtype": "Link",
+   "label": "Journal Entry",
+   "options": "Journal Entry",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "group": "Payment",
+   "link_doctype": "Journal Entry",
+   "link_fieldname": "commission_payment"
+  }
+ ],
+ "modified": "2021-06-18 16:13:19.076284",
+ "modified_by": "Administrator",
+ "module": "Nano",
+ "name": "Commission Payment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "sales_partner",
+ "track_changes": 1
+}

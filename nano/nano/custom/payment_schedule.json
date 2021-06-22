@@ -1,0 +1,32 @@
+{
+ "custom_fields": [],
+ "custom_perms": [],
+ "doctype": "Payment Schedule",
+ "property_setters": [
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "creation": "2019-08-03 14:06:30.697394",
+   "default_value": null,
+   "doc_type": "Payment Schedule",
+   "docstatus": 0,
+   "doctype_or_field": "DocField",
+   "field_name": "due_date",
+   "idx": 0,
+   "modified": "2019-08-03 14:06:30.697394",
+   "modified_by": "Administrator",
+   "name": "Payment Schedule-due_date-default",
+   "owner": "Administrator",
+   "parent": null,
+   "parentfield": null,
+   "parenttype": null,
+   "property": "default",
+   "property_type": "Text",
+   "row_name": null,
+   "value": "Today"
+  }
+ ],
+ "sync_on_migrate": 1
+}
