@@ -9,6 +9,12 @@ app_color = "grey"
 app_email = "mg@erpcloud.systems"
 app_license = "MIT"
 
+scheduler_events = {
+	"all": [
+		"nano.functions.commission_cal"
+	]
+}
+
 # Includes in <head>
 # ------------------
 
