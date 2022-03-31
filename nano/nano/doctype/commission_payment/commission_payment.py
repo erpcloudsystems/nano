@@ -51,12 +51,12 @@ class CommissionPayment(Document):
 										sales_partner_commission as commissions
 										from `tabSales Invoice` 
 										where 
-										docstatus=1 
-										and paid =0 
+										docstatus = 1 
+										and paid = 0 
 										and sales_partner = %s 
 										and outstanding_amount = 0
-										and posting_date > '2020-12-31'
-										and sales_partner_commission > 0""", self.sales_partner,as_dict=True)
+										and posting_date > '2019-12-31'
+										and sales_partner_commission != 0""", self.sales_partner, as_dict=True)
 			for comm in invoices:
 				row = self.append('commission_details', {})
 				row.sales_invoice = comm.name
@@ -81,7 +81,7 @@ class CommissionPayment(Document):
 										and sales_manager = %s 
 										and outstanding_amount = 0
 										and posting_date > '2020-12-31'
-										 and sales_manager_commission > 0""", self.sales_manager, as_dict=True)
+										 and sales_manager_commission != 0""", self.sales_manager, as_dict=True)
 			for comm in invoices:
 				row = self.append('commission_details', {})
 				row.sales_invoice = comm.name
