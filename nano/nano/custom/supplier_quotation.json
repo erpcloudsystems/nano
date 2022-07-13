@@ -11,7 +11,11 @@
    "collapsible": 0,
    "collapsible_depends_on": null,
    "columns": 0,
+<<<<<<< HEAD
    "creation": "2018-04-14 16:55:37.989614",
+=======
+   "creation": "2018-04-14 16:49:50.524864",
+>>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "default": null,
    "depends_on": null,
    "description": null,
@@ -36,7 +40,11 @@
    "label": "Sup Quotation No",
    "length": 0,
    "mandatory_depends_on": null,
+<<<<<<< HEAD
    "modified": "2018-04-14 16:55:37.989614",
+=======
+   "modified": "2018-04-14 16:49:50.524864",
+>>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "modified_by": "Administrator",
    "name": "Supplier Quotation-supplier_quotation_no",
    "no_copy": 0,
@@ -71,7 +79,11 @@
    "collapsible": 0,
    "collapsible_depends_on": null,
    "columns": 0,
+<<<<<<< HEAD
    "creation": "2018-04-14 16:55:38.907162",
+=======
+   "creation": "2018-04-14 16:49:50.936710",
+>>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "default": null,
    "depends_on": null,
    "description": null,
@@ -96,7 +108,11 @@
    "label": "Sup Quotation Date",
    "length": 0,
    "mandatory_depends_on": null,
+<<<<<<< HEAD
    "modified": "2018-04-14 16:55:38.907162",
+=======
+   "modified": "2018-04-14 16:49:50.936710",
+>>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "modified_by": "Administrator",
    "name": "Supplier Quotation-supplier_quotation_date",
    "no_copy": 0,
@@ -606,6 +622,76 @@
    "submit": 1,
    "user_permission_doctypes": null,
    "write": 1
+  },
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "amend": 0,
+   "cancel": 1,
+   "create": 1,
+   "creation": "2022-03-31 10:42:43.715595",
+   "delete": 1,
+   "docstatus": 0,
+   "email": 0,
+   "export": 1,
+   "idx": 0,
+   "if_owner": 0,
+   "import": 0,
+   "modified": "2022-03-31 10:42:43.715595",
+   "modified_by": "Administrator",
+   "name": "de38a1d532",
+   "owner": "Administrator",
+   "parent": "Supplier Quotation",
+   "parentfield": null,
+   "parenttype": null,
+   "permlevel": 0,
+   "print": 0,
+   "read": 1,
+   "report": 0,
+   "role": "Manufacturing Manager",
+   "select": 0,
+   "set_user_permissions": 0,
+   "share": 0,
+   "submit": 1,
+   "user_permission_doctypes": null,
+   "write": 1
+  },
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "amend": 0,
+   "cancel": 1,
+   "create": 1,
+   "creation": "2022-03-31 10:42:45.819562",
+   "delete": 1,
+   "docstatus": 0,
+   "email": 0,
+   "export": 1,
+   "idx": 0,
+   "if_owner": 0,
+   "import": 0,
+   "modified": "2022-03-31 10:42:45.819562",
+   "modified_by": "Administrator",
+   "name": "3dcc8ed541",
+   "owner": "Administrator",
+   "parent": "Supplier Quotation",
+   "parentfield": null,
+   "parenttype": null,
+   "permlevel": 0,
+   "print": 0,
+   "read": 1,
+   "report": 0,
+   "role": "System Manager",
+   "select": 0,
+   "set_user_permissions": 0,
+   "share": 0,
+   "submit": 1,
+   "user_permission_doctypes": null,
+   "write": 1
   }
  ],
  "doctype": "Supplier Quotation",
@@ -615,14 +701,22 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
+<<<<<<< HEAD
    "creation": "2022-05-18 13:34:40.082500",
+=======
+   "creation": "2022-05-18 13:25:00.939781",
+>>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "default_value": null,
    "doc_type": "Supplier Quotation",
    "docstatus": 0,
    "doctype_or_field": "DocType",
    "field_name": null,
    "idx": 0,
+<<<<<<< HEAD
    "modified": "2022-05-18 13:34:40.082500",
+=======
+   "modified": "2022-05-18 13:25:00.939781",
+>>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "modified_by": "islam@erpcloud.systems",
    "name": "Supplier Quotation-main-track_views",
    "owner": "islam@erpcloud.systems",
