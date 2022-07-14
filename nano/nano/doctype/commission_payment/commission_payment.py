@@ -8,7 +8,7 @@ from frappe import msgprint, _, scrub
 from erpnext.controllers.accounts_controller import AccountsController
 from dateutil.relativedelta import relativedelta
 from erpnext.accounts.utils import get_balance_on, get_stock_accounts, get_stock_and_account_balance, \
-	get_account_currency, check_if_stock_and_account_balance_synced
+	get_account_currency
 from erpnext.accounts.party import get_party_account
 from erpnext.hr.doctype.expense_claim.expense_claim import update_reimbursed_amount
 from erpnext.accounts.doctype.invoice_discounting.invoice_discounting \
