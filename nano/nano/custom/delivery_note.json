@@ -119,7 +119,6 @@
    "translatable": 1,
    "unique": 0,
    "width": null
-<<<<<<< HEAD
   },
   {
    "_assign": null,
@@ -180,8 +179,6 @@
    "translatable": 1,
    "unique": 0,
    "width": null
-=======
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
   }
  ],
  "custom_perms": [
@@ -960,8 +957,6 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
-<<<<<<< HEAD
-=======
    "amend": 0,
    "cancel": 0,
    "create": 0,
@@ -1796,7 +1791,6 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "creation": "2021-03-31 09:46:06.195453",
    "default_value": null,
    "doc_type": "Delivery Note",

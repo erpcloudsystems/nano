@@ -903,7 +903,6 @@
    "_liked_by": null,
    "_user_tags": null,
    "amend": 0,
-<<<<<<< HEAD
    "cancel": 1,
    "create": 1,
    "creation": "2022-03-31 07:49:56.230098",
@@ -942,11 +941,9 @@
    "cancel": 0,
    "create": 0,
    "creation": "2022-03-31 07:49:59.584275",
-=======
    "cancel": 0,
    "create": 0,
    "creation": "2020-11-18 14:09:25.504146",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "delete": 0,
    "docstatus": 0,
    "email": 0,
@@ -1541,7 +1538,6 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
-<<<<<<< HEAD
    "creation": "2022-05-18 13:35:57.088467",
    "default_value": null,
    "doc_type": "Sales Invoice",
@@ -1566,10 +1562,7 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
-   "creation": "2021-07-26 20:25:04.820243",
-=======
    "creation": "2022-06-29 16:49:58.300026",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "default_value": null,
    "doc_type": "Sales Invoice",
    "docstatus": 0,

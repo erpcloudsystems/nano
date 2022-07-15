@@ -85,11 +85,7 @@
    "hide_border": 0,
    "hide_days": 0,
    "hide_seconds": 0,
-<<<<<<< HEAD
-   "idx": 110,
-=======
    "idx": 109,
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_global_search": 0,
@@ -149,11 +145,7 @@
    "hide_border": 0,
    "hide_days": 0,
    "hide_seconds": 0,
-<<<<<<< HEAD
-   "idx": 111,
-=======
    "idx": 110,
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_global_search": 0,
@@ -213,11 +205,8 @@
    "hide_border": 0,
    "hide_days": 0,
    "hide_seconds": 0,
-<<<<<<< HEAD
    "idx": 112,
-=======
    "idx": 111,
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_global_search": 0,
@@ -277,11 +266,7 @@
    "hide_border": 0,
    "hide_days": 0,
    "hide_seconds": 0,
-<<<<<<< HEAD
-   "idx": 113,
-=======
    "idx": 112,
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_global_search": 0,
@@ -341,11 +326,7 @@
    "hide_border": 0,
    "hide_days": 0,
    "hide_seconds": 0,
-<<<<<<< HEAD
-   "idx": 115,
-=======
    "idx": 114,
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_global_search": 0,
@@ -585,11 +566,7 @@
    "hide_border": 0,
    "hide_days": 0,
    "hide_seconds": 0,
-<<<<<<< HEAD
-   "idx": 114,
-=======
    "idx": 113,
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_global_search": 0,
@@ -1864,22 +1841,14 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
-<<<<<<< HEAD
-   "creation": "2022-05-18 13:35:04.331177",
-=======
    "creation": "2022-05-18 13:25:37.584486",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "default_value": null,
    "doc_type": "Quotation",
    "docstatus": 0,
    "doctype_or_field": "DocType",
    "field_name": null,
    "idx": 0,
-<<<<<<< HEAD
-   "modified": "2022-05-18 13:35:04.331177",
-=======
    "modified": "2022-05-18 13:25:37.584486",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "modified_by": "islam@erpcloud.systems",
    "name": "Quotation-main-track_views",
    "owner": "islam@erpcloud.systems",

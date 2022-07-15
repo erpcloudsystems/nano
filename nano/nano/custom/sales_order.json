@@ -1189,10 +1189,6 @@
    "_user_tags": null,
    "amend": 0,
    "cancel": 0,
-<<<<<<< HEAD
-   "create": 1,
-   "creation": "2022-03-31 10:20:59.476162",
-=======
    "create": 0,
    "creation": "2022-03-31 10:29:36.821884",
    "delete": 0,
@@ -1405,7 +1401,6 @@
    "cancel": 0,
    "create": 0,
    "creation": "2022-03-31 10:42:34.567670",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "delete": 0,
    "docstatus": 0,
    "email": 0,
@@ -1413,11 +1408,6 @@
    "idx": 0,
    "if_owner": 0,
    "import": 0,
-<<<<<<< HEAD
-   "modified": "2022-03-31 10:20:59.476162",
-   "modified_by": "Administrator",
-   "name": "dc237a56bc",
-=======
    "modified": "2022-03-31 10:42:34.567670",
    "modified_by": "Administrator",
    "name": "e5cf08b4f7",
@@ -1526,7 +1516,6 @@
    "modified": "2022-03-31 10:42:42.310459",
    "modified_by": "Administrator",
    "name": "cef380ab2e",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "owner": "Administrator",
    "parent": "Sales Order",
    "parentfield": null,
@@ -1535,19 +1524,13 @@
    "print": 0,
    "read": 1,
    "report": 0,
-<<<<<<< HEAD
-   "role": "Sales order creation",
-=======
    "role": "System Manager",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "select": 0,
    "set_user_permissions": 0,
    "share": 0,
    "submit": 1,
    "user_permission_doctypes": null,
    "write": 1
-<<<<<<< HEAD
-=======
   },
   {
    "_assign": null,
@@ -1653,7 +1636,6 @@
    "submit": 0,
    "user_permission_doctypes": null,
    "write": 0
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
   }
  ],
  "doctype": "Sales Order",

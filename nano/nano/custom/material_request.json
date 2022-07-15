@@ -915,22 +915,14 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
-<<<<<<< HEAD
-   "creation": "2022-05-18 13:33:34.831627",
-=======
    "creation": "2022-05-18 13:13:23.551991",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "default_value": null,
    "doc_type": "Material Request",
    "docstatus": 0,
    "doctype_or_field": "DocType",
    "field_name": null,
    "idx": 0,
-<<<<<<< HEAD
-   "modified": "2022-05-18 13:33:34.831627",
-=======
    "modified": "2022-05-18 13:13:23.551991",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "modified_by": "islam@erpcloud.systems",
    "name": "Material Request-main-track_views",
    "owner": "islam@erpcloud.systems",

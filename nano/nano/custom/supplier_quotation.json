@@ -11,11 +11,7 @@
    "collapsible": 0,
    "collapsible_depends_on": null,
    "columns": 0,
-<<<<<<< HEAD
-   "creation": "2018-04-14 16:55:37.989614",
-=======
    "creation": "2018-04-14 16:49:50.524864",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "default": null,
    "depends_on": null,
    "description": null,
@@ -40,11 +36,7 @@
    "label": "Sup Quotation No",
    "length": 0,
    "mandatory_depends_on": null,
-<<<<<<< HEAD
-   "modified": "2018-04-14 16:55:37.989614",
-=======
    "modified": "2018-04-14 16:49:50.524864",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "modified_by": "Administrator",
    "name": "Supplier Quotation-supplier_quotation_no",
    "no_copy": 0,
@@ -79,11 +71,7 @@
    "collapsible": 0,
    "collapsible_depends_on": null,
    "columns": 0,
-<<<<<<< HEAD
-   "creation": "2018-04-14 16:55:38.907162",
-=======
    "creation": "2018-04-14 16:49:50.936710",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "default": null,
    "depends_on": null,
    "description": null,
@@ -108,11 +96,7 @@
    "label": "Sup Quotation Date",
    "length": 0,
    "mandatory_depends_on": null,
-<<<<<<< HEAD
-   "modified": "2018-04-14 16:55:38.907162",
-=======
    "modified": "2018-04-14 16:49:50.936710",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "modified_by": "Administrator",
    "name": "Supplier Quotation-supplier_quotation_date",
    "no_copy": 0,
@@ -701,22 +685,14 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
-<<<<<<< HEAD
-   "creation": "2022-05-18 13:34:40.082500",
-=======
    "creation": "2022-05-18 13:25:00.939781",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "default_value": null,
    "doc_type": "Supplier Quotation",
    "docstatus": 0,
    "doctype_or_field": "DocType",
    "field_name": null,
    "idx": 0,
-<<<<<<< HEAD
-   "modified": "2022-05-18 13:34:40.082500",
-=======
    "modified": "2022-05-18 13:25:00.939781",
->>>>>>> b612ae4a4a5db1add92bc83f49d46b93e28c9959
    "modified_by": "islam@erpcloud.systems",
    "name": "Supplier Quotation-main-track_views",
    "owner": "islam@erpcloud.systems",
